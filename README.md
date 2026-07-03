@@ -8,6 +8,19 @@ This repository contains the scripts, pipelines, and analytical tools developed 
 
 ---
 
+## Technical skills demonstrated
+ 
+- **Data collection**: web scraping and automated data extraction (Python, Selenium)
+- **Data cleaning & processing**: structuring and cleaning unstructured text data (R, Python)
+- **Statistical analysis**: descriptive and inferential statistics applied to social science data (R)
+- **Network analysis**: graph construction and structural analysis of discourse networks (Gephi, R)
+- **Text classification**: rule-based coding and categorical annotation of large text corpora
+- **Data visualization**: network graphs, statistical charts (R, Python, Gephi)
+- **Reproducible research**: version-controlled, documented pipelines designed for replication
+
+  
+---
+
 ## Projects
 
 | Directory | Description |
