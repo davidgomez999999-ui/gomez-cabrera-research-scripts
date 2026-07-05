@@ -3,7 +3,7 @@
 # ==============================================================================
 # Computes the endorsement-to-reply ratio for each political ecosystem.
 # This ratio is reported in the Commentary "Inscription Bias and Discursive
-# Capacity on X" (Gómez Cabrera, 2026, Big Data & Society).
+# Capacity on X"
 #
 # Ratio definition:
 #   refrendo = n_likes + n_retuits (silent endorsement affordances)
