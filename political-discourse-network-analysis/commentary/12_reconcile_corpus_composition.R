@@ -4,7 +4,7 @@
 # Reconciles the full corpus size (2,928 messages) with the direct-reply
 # counts reported in Table 1 (1,493 messages) of the Commentary
 # "The silence of agreement: Asymmetric affordances and the over-representation
-# of conflict in X's textual corpora" (submitted to Big Data & Society, 2026).
+# of conflict in X's textual corpora" 
 #
 # Classification (mutually exclusive, in priority order):
 #   seed_post     = the seed tweet itself
