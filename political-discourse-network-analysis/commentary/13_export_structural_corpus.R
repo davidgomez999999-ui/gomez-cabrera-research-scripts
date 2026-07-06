@@ -18,7 +18,7 @@
 #
 # Dependencies: tidyverse
 #
-# Version: 1.0 - as used in the Commentary (2026)
+# Version: 1.1 - deposit contents aligned with the submitted manuscript (2026)
 # Author:  David Gómez Cabrera (2026)
 # License: MIT - https://opensource.org/licenses/MIT
 # ==============================================================================
@@ -108,7 +108,7 @@ cat("\nCHECKSUMS.md5 written.\n")
 # ==============================================================================
 
 readme <- c(
-"# Reply corpus (structural data) and coding materials",
+"# Reply corpus (structural data)",
 "",
 "Supplementary deposit for the Commentary \"The silence of agreement:",
 "Asymmetric affordances and the over-representation of conflict in X's",
@@ -119,9 +119,6 @@ readme <- c(
 "  reply corpus: 2,928 records across four seed threads collected on X in",
 "  January 2026.",
 "- CHECKSUMS.md5 - integrity checksums for the four data files.",
-"- codebook_stance.pdf - [PENDING: stance codebook, three categories]",
-"- reliability_outputs/ - [PENDING: Krippendorff's alpha outputs]",
-"- dqi_instrument.pdf - [PENDING: eight-variable DQI-lineage instrument]",
 "",
 "## Data description",
 "Each row is one message. Columns: tweet_id (message identifier, string);",
@@ -130,21 +127,25 @@ readme <- c(
 "0 = seed); n_likes; n_retuits. Read all identifiers as strings to avoid",
 "64-bit float truncation.",
 "",
-"## What is withheld, and why",
-"The raw capture (message text and user handles) is not redistributed, in",
-"line with the article's ethical statement: non-institutional users are",
-"pseudonymized and no individual is identified. Reasoned requests for",
-"restricted access may be addressed to the author.",
+"## Provenance, and what is withheld",
+"The deposited files are the output of 13_export_structural_corpus.R applied",
+"to the raw capture - the single, declared private step in the chain. The raw",
+"capture (message text and user handles) is not redistributed, in line with",
+"the article's ethical statement: non-institutional users are pseudonymized",
+"and no individual is identified. Reasoned requests for restricted access may",
+"be addressed to the author. The corpus originates in the author's Bachelor's",
+"Thesis, where the extraction instrument is documented in full.",
 "",
 "## Replication",
-"Scripts 11 (endorsement-to-reply ratios, Table 1) and 12 (corpus",
-"composition and Table 1 verification) from the code release",
-"[PENDING: GitHub release DOI] run unmodified on these files and",
-"reproduce every figure reported in the article.",
+"Scripts 11 (endorsement-to-reply ratios, Table 1) and 12 (corpus composition",
+"and Table 1 verification) from the code release [PENDING: GitHub release DOI]",
+"run unmodified on these files and reproduce every figure reported in the",
+"article.",
 "",
 "## Related deposits",
-"- Walkthrough evidence archive: [PENDING: DOI 2026b]",
-"- Undergraduate thesis developing Discursive Capacity: [PENDING: DOI 2026c]",
+"- Walkthrough evidence archive: https://doi.org/10.5281/zenodo.21138832",
+"- Bachelor's Thesis (extraction instrument; Discursive Capacity):",
+"  https://hdl.handle.net/10481/114519 | https://doi.org/10.5281/zenodo.21138746",
 "",
 "## License",
 "Data: CC BY 4.0. Code (in the linked release): MIT."
